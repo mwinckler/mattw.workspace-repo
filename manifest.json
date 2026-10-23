@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "mattw.workspace-repo",
+  "name": "Workspace repository",
+  "version": "1.0.0",
+  "author": "mattw",
+  "description": "The current workspace's terminal directory, expanding inline on hover",
+  "kinds": ["bar-widget"],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Workspace repository",
+    "description": "Directory name with an inline expanding full path",
+    "category": "Compositor",
+    "allowMultiple": false,
+    "defaultSection": "left"
+  }
+}
